@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/todolist.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+<body>
+    <section class="main">
+        <img src="./images/backgroundimage.jpg" alt="Image Not Found!" class="backgroundimage">
+    <section class="btn-text">
+        <button class="btn-todo">Add Todo</button>
+        <h3 class="heading">T O D O</h3>
+    </section>
+<section class="todo-page">
+  <div class="inner-hp">
+    <h2 class="inner-heading">complete HTML learning </h2>
+    <p class="inner-para">Learn all html semantic tags ,learn new article tag</p>
+  </div>
+  <div class="inner-hp">
+    <h2 class="inner-heading">Learn map() method</h2>
+    <p class="inner-para">learn how to implement map method in javascript </p>
+  </div>
+ <div class="inner-hp">
+    <h2 class="inner-heading">Take notes</h2>
+    <p class="inner-para">Take notes regarding css fundamental</p>
+  </div>
+  <div class="inner-hp">
+    <h2 class="inner-heading">Water Plants</h2>
+    <p class="inner-para">Water all plants in garden</p>
+  </div>
+  <section class="icon">
+  <p class="icon1">!</p>
+  <p class="icon2">!!!</p>
+  <p class="icon3">!!</p>
+  <p class="icon4">!</p>
+</section>
+<section>
+
+    <span class="delete"><i class="fa fa-trash" aria-hidden="true" onclick="deleteBlog()"></i></span>
+    <span class="delete"><i class="fa fa-trash" aria-hidden="true" onclick="deleteBlog()"></i></span>
+    <span class="delete"><i class="fa fa-trash" aria-hidden="true" onclick="deleteBlog()"></i></span>
+    <span class="delete"><i class="fa fa-trash" aria-hidden="true" onclick="deleteBlog()"></i></span>
+</section>
+</section>
+<section class="pop">
+  <section class="reg d-none">
+    <label for="">Todo Name</label><br>
+    <input type="text" name="" id="name" value=""><br></div><br>
+    <div>
+        <label for="">Description</label> 
+<div>  <textarea name="description" id="description"  value="" cols="15" rows="10"></textarea></div>
+<div> <br>
+<label for="">Priority</label> <br>
+<select name="" id="Priority" value="       ">
+    <option value="  ">     </option>
+<option value="success" style="background-color: #2FA84F;" >success</option>
+<option value="Warning" style="background-color: orange;">Warning</option>
+<option value="Error" style="background-color: #EA3D2F;">Error</option>
+</select></div><br>
+<button class="btnsave">Save</button>
+<button class="btncancel">Canel</button>
+</section>
+</section>
+
+
+</section>
+
+
+<script src="./js/todolist.js"></script>
+</body>
+
+</html>
