@@ -15,6 +15,9 @@ background - #C481FF
 FONT FACE 
 Montserrat Alternates */
 
+.inner-hp:hover{
+ box-shadow: 5px 5px 5px palevioletred;
+}
 
     
     i.fa.fa-trash {
