@@ -1,0 +1,267 @@
+/* priority blue - #367BF5
+
+priority red - #EA3D2F
+
+priority greed - #2FA84F
+
+
+button primary - #367BF5
+
+INPUT BOX
+border-color - #367BF5
+background - #C481FF
+
+
+FONT FACE 
+Montserrat Alternates */
+
+
+    
+    i.fa.fa-trash {
+    box-shadow: 8px 2px 11px gray;
+    }
+    span.delete {
+        color: red;
+    position: relative;
+    top: -446px;
+    left: 585px;
+    font-size: x-large;
+    display: block;
+    padding: 38px;
+}
+
+  .icon{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    height: 31px;
+    /* background-color: #367BF5; */
+    position: relative;
+    top: -418px;
+    width: 40px;
+    left: 369px;
+    color: white;
+    border-radius: 11px;
+  }
+  .icon1{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    height: 31px;
+    background-color: #367BF5;
+    position: relative;
+    top: -5px;
+    width: 45px;
+    left: 13px;
+    color: white;
+    border-radius: 17px;
+  }
+  .icon2{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    height: 31px;
+    background-color: #EA3D2F;
+    position: relative;
+    top: 44px;
+    width: 45px;
+    left: 13px;
+    color: white;
+    border-radius: 17px;
+  }
+  .icon3{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    height: 31px;
+    background-color: #367BF5;
+    position: relative;
+    top: 99px;
+    width: 45px;
+    left: 11px;
+    color: white;
+    border-radius: 17px;
+  }
+  .icon4{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    height: 31px;
+    background-color: #2FA84F;
+    position: relative;
+    top: 149px;
+    width: 45px;
+    left: 20px;
+    color: white;
+    border-radius: 17px;
+  }
+    .inner-hp{
+    
+    border-bottom: 1px solid gray;
+    padding-left: 46px;
+    padding-top: 2px;
+   
+    
+
+    
+    }
+ 
+    body{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .btn-todo{
+        height: 5vh;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    width: 95px;
+    position: relative;
+    top: -204px;
+    left: 344px;
+}
+    
+    .todo-page{
+        background-color: white;
+    width: 50%;
+    height: 68vh;
+    border-radius: 25px;
+    box-shadow: 15px 15px 20px gray;
+    position: relative;
+    top: -292px;
+    left: 289px;
+        
+    }
+    .backgroundimage{
+    width: 1333px;
+    height: 48vh;
+    border-radius: 20px;
+    margin: 8px;
+    }
+    .heading{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    top: -268px;
+   
+    left: 777px;
+   
+    }
+    .main{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    /* Pop Page */
+ 
+       
+    .btnsave{
+    height: 5vh;
+    background-color: blue;
+ color: white;
+border-radius: 20px;
+border: none;
+font-weight: bold;
+width: 95px;
+position: relative;
+left: 100px;
+cursor: pointer;
+
+    }
+        
+    .btncancel{
+        height: 5vh;
+        background-color: blue;
+     color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    width: 95px;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+    
+        }
+    .btnsave:hover{
+     box-shadow: 5px 5px 10px blue;
+    }
+    .btncan:hover{
+        box-shadow: 5px 5px 10px blue;
+       }
+    label{
+        font-size: large;
+        padding-left: 22px;
+      
+    }
+    #Priority
+    {
+        border: none;
+        border: 1px solid purple;
+        background-color: pink;
+        width: 299px;
+        height: 6vh;
+        font-size: large;
+        border-radius: 20px;
+    }
+    #description{
+        border: none;
+        border: 1px solid purple;
+        background-color: pink;
+        width: 299px;
+        height: 10vh;
+        border-radius: 35px;
+        resize: none;
+        font-size: large;
+    }
+    #name{
+        border: none;
+        border: 1px solid purple;
+        background-color: pink;
+        width: 299px;
+        height: 6vh;
+        border-radius: 20px;
+        font-size: large;
+    }
+
+    .reg{
+
+    
+        padding-top: 29px;
+background-color: white;
+width: 26%;
+height: 52vh;
+border-radius: 25px;
+box-shadow: 15px 15px 20px gray;
+position: relative;
+top: 124px;
+left: 420px;
+display: block;
+padding-left: 40px;
+
+}
+
+.todo-page1{
+    background-color: white;
+width: 50%;
+height: 68vh;
+border-radius: 25px;
+box-shadow: 15px 15px 20px gray;
+position: relative;
+top: -292px;
+left: 289px;
+    
+}
+
+section.pop {
+    position: relative;
+    top: -825px;
+    display: flex;
+}
+.d-none{
+    display: none;
+}
